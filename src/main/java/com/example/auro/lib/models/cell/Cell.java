@@ -11,6 +11,10 @@ import lombok.Setter;
 @RequiredArgsConstructor
 public class Cell {
 	
+	@NonNull
+	@Getter
+	private final Long id;
+	
 	@NonNull	
 	@Getter
 	private final CellType cellType;
